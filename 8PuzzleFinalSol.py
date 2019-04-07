@@ -30,6 +30,7 @@ class puzzle_test:
         g = [[int(num) for num in raw_input("Final state. Enter 3 numbers per line separated by a single space :").split()]]
         g.append([int(num) for num in raw_input("Next 3 numbers: ").split()])
         g.append([int(num) for num in raw_input("Last 3 numbers: ").split()])
+        
 
         goal_node = np.array(g)
         # l=[[1,2,3],[7,4,5],[6,8,0]]
